@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  nginx:
+    restart: always
+    build: ./nginx
+    image: challenge/nginx:latest
+    ports:
+      - "80:80"
+    links:
+      - app:app
+
+  app:
+    restart: always
+    build: ./app
+    image: challenge/app:latest

@@ -22,3 +22,8 @@ Bonus features:
 - Crawl pagination (results page 2, 3, etc of the car lists)
 - Crawl vehicle price (how is it loaded into the page? :) )
 - Allow the crawler / flask app to be run inside a docker container
+
+## How to run 
+`docker-compose up --build -d`
+
+Browser to http://localhost and click to Sport or Truck Models links

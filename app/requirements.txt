@@ -1,0 +1,5 @@
+beautifulsoup4==4.6.0
+requests==2.18.4
+Flask==0.12.2
+json2html==1.2.1
+uWSGI==2.0.15
